@@ -7,5 +7,5 @@
 #in that case, execute this line each time before loading MDFS
 #.libPaths("local/directory")
 if (!require("remotes")) install.packages("remotes")
-remotes::install_github("github.com/p100mma/mdfs-r")
+remotes::install_github("https://github.com/p100mma/mdfs-r")
 ```
