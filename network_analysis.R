@@ -86,7 +86,7 @@ Con_Density<-sum(mi_data$S[lower.tri(mi_data$S)]>0)/( ncol(mi_data$S)*(ncol(mi_d
 ## average degree vs number of nodes in total
 mean(colSums(mi_data$S>0))
 ncol(mi_data$S)
-## on average, each node is connected to more than half of all other nodes
+## on average, each node is connected to more than 1/4 of all other nodes
 ncol(mi_data$S)/4
 ##degree distributions
 par(mfrow=c(1,2))
